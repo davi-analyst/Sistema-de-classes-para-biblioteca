@@ -252,7 +252,7 @@ class Library:
         if not book:
             print("Livro não encontrado.")
             return
-        print(f"'{book._title}' → Localização: {book._location}")
+        print(f"'{book.title}' → Localização: {book.location}")
 
 
 
@@ -317,5 +317,6 @@ print()
 library.check_book_location("978-0-00-001")
 print()
 library.check_book_location("978-0-00-002")
+
 
 
