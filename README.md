@@ -1,7 +1,7 @@
-📚 Sistema de Biblioteca — Python + OOP
+# 📚 Sistema de Biblioteca — Python + OOP
 Projeto de gerenciamento de biblioteca desenvolvido em Python com foco na prática de Programação Orientada a Objetos (OOP).
 
-📋 Funcionalidades
+# 📋 Funcionalidades
 
 Cadastrar livros com atribuição automática de localização (estante e prateleira)
 Cadastrar usuários
@@ -12,7 +12,7 @@ Consultar histórico de empréstimos de um usuário
 Consultar a localização física de um livro na biblioteca
 
 
-🗂️ Estrutura das Classes
+# 🗂️ Estrutura das Classes
 Shelf
 └── Bookcase          → representa a localização física de um livro
 
@@ -22,7 +22,7 @@ LibraryItem
 User                  → usuário com histórico de empréstimos
 Library               → gerencia catálogo, usuários e operações de empréstimo
 
-▶️ Como executar
+# ▶️ Como executar
 
 Certifique-se de ter o Python 3 instalado
 Clone o repositório
@@ -31,7 +31,8 @@ Execute o arquivo principal:
 bashpython biblioteca.py
 O terminal vai exibir um exemplo completo com cadastro, empréstimo, consulta e devolução.
 
-🧪 Exemplo de saída
+# 🧪 Exemplo de saída
+
 Livro 'Dom Casmurro' cadastrado com sucesso!
 Livro 'Dona Flor e seus Dois Maridos' cadastrado com sucesso!
 
